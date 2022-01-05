@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+    background-color: lightblue;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1{
+    color: lightcyan;
+}
+.progress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.progress1{
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.progress-done {
+    background: linear-gradient(to left, #7F7FD5, #86A8E7);
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    height: 100%;
+    width: 0;
+    transition: 1s ease;
+}
